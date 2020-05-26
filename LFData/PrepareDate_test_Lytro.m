@@ -12,17 +12,18 @@
 clear;close all;
 
 %% params
-%%% Stanford
-% data_folder = '\\144.214.36.164\Dataset\LF_Dataset\Dataset_Stanford_Lytro\general\raw';
-% savepath = 'test_Stanford_General_x4.h5';
-% data_folder = '\\144.214.36.164\Dataset\LF_Dataset\Dataset_Stanford_Lytro\occlusions\raw';
-% savepath = 'test_Stanford_Occlusions_x4.h5';
-%%% Kalantari
-data_folder = 'dataset_test_lytro';
 scale = 2;
-savepath = sprintf('test_lytro_x%d.h5',scale);
-an = 7;
+%% Stanford
+% data_folder = 'dataset_test_stanford_general';
+% savepath = sprintf('test_Stanford_General_x%d.h5',scale);
+% data_folder = 'dataset_test_stanford_occlusions';
+% savepath = sprintf('test_Stanford_Occlusions_x%d.h5',scale);
+%% Kalantari
+data_folder = 'dataset_test_kalantari';
+savepath = sprintf('test_Kalantari_x%d.h5',scale);
 
+
+an = 7;
 h = 372;
 w = 540;
 
