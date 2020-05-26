@@ -1,5 +1,5 @@
 # LFSSR-ATO
-PyTorch implementation of CVPR 2020 paper: "Light Field Spatial Super-resolution via Deep Combinatorial Geometry Embedding and Structural Consistency Regularization". 
+PyTorch implementation of **CVPR 2020** paper: "**Light Field Spatial Super-resolution via Deep Combinatorial Geometry Embedding and Structural Consistency Regularization**". 
 
 [[arXiv]](https://arxiv.org/pdf/2004.02215.pdf)
 
