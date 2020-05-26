@@ -34,7 +34,7 @@ for i_set = 1:length(dataset_list)
     folder = folder_list{i_set};
     
     %%% read list
-    listname = ['dataset_train/trainList_',dataset,'.txt'];
+    listname = ['list/trainList_',dataset,'.txt'];
     f = fopen(listname);
     C = textscan(f, '%s', 'CommentStyle', '#');
     list = C{1};
