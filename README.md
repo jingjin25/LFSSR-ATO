@@ -4,8 +4,8 @@ PyTorch implementation of **CVPR 2020** paper: "**Light Field Spatial Super-reso
 [[arXiv]](https://arxiv.org/pdf/2004.02215.pdf)
 
 ## Requirements
-- PyThon 3.6
-- Pytorch 1.1
+- Python 3.6
+- PyTorch 1.1
 - Matlab (for training/test data generation)
 
 ## Dataset
