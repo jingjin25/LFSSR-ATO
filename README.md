@@ -24,4 +24,12 @@ python demo_ATO.py --model_dir pretrained_models --save_dir results --scale 2 --
 ```
 
 ## Training
-The training code will be released soon.
+To train the all-to-one model, run:
+'''
+python train_ATO.py --dataset all --scale 2  --angular_num 7 --feature_num 64 --layer_num 5 2 2 3 --lr 1e-4
+python train_ATO.py --dataset all --scale 4  --angular_num 7 --feature_num 64 --layer_num 5 2 2 3 --lr 1e-5
+'''
+To train the final SR model, run:
+'''
+python train_LFSSR.py --dataset all --ATO_path pretrained_models/ATONet_2x.pth  --scale 2  --angular_num 7 --feature_num 64 --layer_num 5 2 2 3 --layer_num_refine 3 --weight_epi 0.1  --lr 1e-4
+'''
